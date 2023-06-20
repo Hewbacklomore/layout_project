@@ -14,7 +14,10 @@ gulp.task('html', function() {
            .pipe(gulp.dest('dist/'))
 });
 
+gulp.task('copy', function() {
+    return gulp.src('src/**/*')
+           .pipe(gulp.dest('dist/'))
+})
 
 
-
-gulp.task('default', gulp.parallel('watch', 'html'));
+gulp.task('default', gulp.parallel('watch', 'html', 'copy'));

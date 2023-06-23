@@ -10,8 +10,13 @@
   "devDependencies": {
     "glob": "^10.2.7",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.63.6"
   },
   "dependencies": {
     "ansi-colors": "^1.1.0",
@@ -43,6 +48,7 @@
     "binary-extensions": "^1.13.1",
     "brace-expansion": "^1.1.11",
     "braces": "^2.3.2",
+    "browser-sync": "^2.29.3",
     "buffer-equal": "^1.0.1",
     "buffer-from": "^1.1.2",
     "cache-base": "^1.0.1",
